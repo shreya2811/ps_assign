@@ -84,15 +84,6 @@ footer {
 
 
 /* Payment method */
-@media screen and (min-width:577px) and (max-width:737px) {
-    #categories .card-body {
-        min-height: 744px;
-    }
-    #product .card-body {
-        min-height: 327px;
-        padding-top: 20px;
-    }
-}
 
 @media screen and (min-width:670px) and (max-width:691px) {
     #cart {
@@ -123,5 +114,15 @@ footer {
     #cart {
         padding-left: 10px !important;
 /*         float: right !important; */
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:732px) {
+    #categories .card-body {
+        min-height: 744px;
+    }
+    #product .card-body {
+        min-height: 327px;
+        padding-top: 20px;
     }
 }
