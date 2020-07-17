@@ -1,5 +1,6 @@
 body {
     background-color: #F9F9F9;
+    overflow-x: hidden;
 }
 
 
@@ -15,6 +16,7 @@ body {
 
 span.badge.badge-pill.text-center {
     background-color: #E3110B;
+    color: #fff;
 }
 
 
@@ -51,11 +53,12 @@ span.badge.badge-pill.text-center {
 }
 
 #categories .card-body {
-    min-height: 670px;
+    min-height: 700px;
 }
 
 #product .card-body {
-    min-height: 290px;
+    min-height: 305px;
+    padding-top: 20px;
 }
 
 
@@ -73,6 +76,10 @@ span.badge.badge-pill.text-center {
 aside.col-sm-12.col-md-6,
 footer {
     padding-left: 28px;
+}
+
+footer {
+    margin-bottom: 20px;
 }
 
 
@@ -106,5 +113,6 @@ footer {
 @media screen and (max-width:577px) {
     #cart {
         padding-left: 10px !important;
+/*         float: right !important; */
     }
 }
