@@ -119,10 +119,10 @@ footer {
 
 @media screen and (min-width:576px) and (max-width:732px) {
     #categories .card-body {
-        min-height: 744px;
+        min-height: 744px !important;
     }
     #product .card-body {
-        min-height: 327px;
+        min-height: 327px  !important;
         padding-top: 20px;
     }
 }
